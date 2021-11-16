@@ -1,0 +1,64 @@
+body {
+  font-size: 15px;
+}
+
+.container {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
+  width: 50%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+button {
+  border: none;
+  background-color: rgb(14, 148, 200);
+  height: 2.5rem;
+  width: 5rem;
+  margin: 1rem;
+}
+
+table {
+  width: 100%;
+  border: solid black;
+}
+
+table div {
+  height: 100%;
+  width: 100%;
+}
+tr,
+td {
+  height: 100%;
+  width: 100%;
+}
+
+td {
+  border-bottom: solid 0.1rem black;
+  border-right: solid 0.25rem black;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.btn {
+  border: none;
+  height: 2.5rem;
+  width: 5rem;
+  margin: 1rem;
+}
+
+.delete-btn {
+  background-color: red;
+}
+
+.change-btn {
+  background-color: aqua;
+}
